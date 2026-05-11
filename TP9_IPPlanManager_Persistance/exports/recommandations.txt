@@ -1,0 +1,25 @@
+═══════════════════════════════════════════════════════════════
+            RECOMMANDATIONS IPPLAN-MANAGER
+═══════════════════════════════════════════════════════════════
+
+[MOYENNE] VLAN de grande taille
+    → Le VLAN ETUDIANTS a une capacité de 510 hôtes. Surveiller les broadcasts.
+
+[ÉLEVÉE] Isolation du WiFi
+    → Le VLAN WIFI_INVITES doit être isolé des VLANs internes sensibles.
+
+[MOYENNE] VLAN de grande taille
+    → Le VLAN WIFI_INVITES a une capacité de 254 hôtes. Surveiller les broadcasts.
+
+[MOYENNE] Marge d'adresses insuffisante
+    → Le VLAN ENSEIGNANTS a une marge de seulement 6 adresses.
+
+[MOYENNE] Marge d'adresses insuffisante
+    → Le VLAN LABORATOIRES a une marge de seulement 2 adresses.
+
+[ÉLEVÉE] Protection du VLAN Serveurs
+    → Le VLAN SERVEURS doit être protégé par des ACL et surveillé.
+
+[MOYENNE] Marge d'adresses insuffisante
+    → Le VLAN SERVEURS a une marge de seulement 0 adresses.
+
